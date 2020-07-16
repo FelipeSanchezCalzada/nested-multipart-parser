@@ -4,7 +4,7 @@ import re
 class NestedMultipartParser(parsers.MultiPartParser):
     """
     Parser for processing nested field values as well as multipart files.
-    Author: Ahmed H. Ismail.
+    Author: Ahmed H. Ismail. and Felipe Sánchez Calzada
     """
 
     def parse(self, stream, media_type=None, parser_context=None):
